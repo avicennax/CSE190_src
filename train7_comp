@@ -1,6 +1,0 @@
-#!/usr/bin/env sh
-
-TOOLS=./build/tools
-
-$TOOLS/caffe train --solver=HaxHW3/solver7.prototxt 2>&1 | tee log7_comp.txt
-

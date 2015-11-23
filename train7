@@ -1,8 +1,0 @@
-#!/usr/bin/env sh
-
-TOOLS=./build/tools
-
-# $1 = _iter_
-# $2 = model
-
-$TOOLS/caffe train --solver=HaxHW3/solver7.prototxt --weights=$2_iter_$1.caffemodel 2>&1 | tee log7.txt
